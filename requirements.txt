@@ -1,0 +1,12 @@
+# QuantumData Factory - Requirements
+# Core dependencies (install via pip)
+
+streamlit
+pandas
+scikit-learn
+joblib
+py3Dmol
+stmol
+
+# Note: RDKit and Psi4 must be installed via Conda:
+# conda install -c conda-forge rdkit psi4

@@ -1,64 +1,37 @@
-# Byte-compiled / optimized / DLL files
+# Python
 __pycache__/
 *.py[cod]
 *$py.class
-
-# C extensions
 *.so
-
-# Distribution / packaging
 .Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
 *.egg-info/
-.installed.cfg
-*.egg
+dist/
+build/
 
-# Virtual environments
-venv/
-ENV/
-env/
-.venv/
-
-# Conda
-.conda/
-
-# IDE settings
-.idea/
+# IDE
 .vscode/
+.idea/
 *.swp
 *.swo
 
-# Jupyter Notebook checkpoints
-.ipynb_checkpoints/
-
-# Large data files
-*.csv
-*.h5
-*.hdf5
-*.pkl
-*.pickle
-*.npy
-*.npz
-
-# Logs
-*.log
-
-# OS generated files
+# OS
 .DS_Store
 Thumbs.db
 
-# Psi4 output files
-*.dat
+# Psi4 temporary files
+psi4_output.dat
 timer.dat
 psi.*.clean
+psi.*.grad
+
+# Factory output (keep reports, ignore heavy media)
+factory_output/2D_Images/
+factory_output/3D_Structures/
+output/
+
+# Model files (optional - uncomment if model is large)
+# energy_predictor_model.pkl
+
+# Environment
+.env
+*.log
