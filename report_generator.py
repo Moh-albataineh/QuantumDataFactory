@@ -23,7 +23,7 @@ class PDFReport(FPDF):
         # Title
         self.set_font('Arial', 'B', 20)
         self.set_text_color(30, 60, 114)  # Dark blue
-        self.cell(0, 10, 'QuantumData Factory v2.0', 0, 1, 'C')
+        self.cell(0, 10, 'QuantumData Factory v2.4', 0, 1, 'C')
         
         # Subtitle
         self.set_font('Arial', 'I', 12)
