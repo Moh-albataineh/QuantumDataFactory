@@ -122,5 +122,10 @@ DigitalDataFactory/
 MIT License - Feel free to use, modify, and distribute.
 
 ---
+## 👤 Author
 
-Built with ❤️ for computational chemistry and AI-driven drug discovery.
+**Mohammed Albataineh**
+* 🐱 GitHub: [@Moh-albataineh](https://github.com/Moh-albataineh)
+* 📧 Email: (hmoodx2006xbatayneh@gmail.com)
+
+Built with ❤️ for Science & AI.
